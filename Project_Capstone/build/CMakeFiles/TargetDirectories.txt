@@ -1,0 +1,8 @@
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/Capstone.dir
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/edit_cache.dir
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/rebuild_cache.dir
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/list_install_components.dir
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/install.dir
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/install/local.dir
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/install/strip.dir
+/home/truongpd/Learn/CppND-Capston-Project/FinalProject/build/CMakeFiles/Capstone_autogen.dir
