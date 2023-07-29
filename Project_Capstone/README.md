@@ -29,8 +29,6 @@ The prject have 10 class
 - Class SignUp: SignUp a new accounct
 
 
-
-
 ## Installation
 Requirements:
 ```sh
@@ -46,6 +44,9 @@ How to run:
 cmake .. && cmake --build . 
 5. Run project
 ./Capstone
+6. Using username: admin and password: admin to login with adminstrator account
+7. Using username: truongpd and password: Truongpd1998 to login normal user
+Or you can sign up new account with Sign up feature
 ```
 
 
