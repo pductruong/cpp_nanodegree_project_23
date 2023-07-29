@@ -1,8 +1,0 @@
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/Capstone.dir
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/edit_cache.dir
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/rebuild_cache.dir
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/list_install_components.dir
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/install.dir
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/install/local.dir
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/install/strip.dir
-/home/truongpd/Learn/cpp_nanodegree_project_23/Project_Capstone/build/CMakeFiles/Capstone_autogen.dir
