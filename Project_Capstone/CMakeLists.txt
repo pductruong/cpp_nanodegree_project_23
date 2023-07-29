@@ -64,7 +64,6 @@ else()
         )
     endif()
 endif()
-qt6_add_resources(RESOURCES images.qrc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(Capstone PRIVATE Qt${QT_VERSION_MAJOR}::Widgets
                       Qt${QT_VERSION_MAJOR}::Sql)
