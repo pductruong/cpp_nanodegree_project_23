@@ -77,7 +77,7 @@ set_target_properties(Capstone PROPERTIES
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
-
+include(GNUInstallDirs)
 install(TARGETS Capstone
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
