@@ -1,5 +1,5 @@
 # Capstone project - Book Rental Application
-The project is constructed by C++ and Qt6 framwork
+The project is constructed by C++ and Qt5/6 framwork
 
 ## Features
  - Adminstrator with admin account:
@@ -32,8 +32,17 @@ The prject have 10 class
 ## Installation
 Requirements:
 ```sh
-Qt6
-https://github.com/qt/qt5
+Qt5
+sudo apt-get install build-essential perl python3 git
+sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev
+git clone git://code.qt.io/qt/qt5.git
+cd qt5
+git checkout 5.12
+perl init-repository
+mkdir qt5-build && cd qt5-build
+../configure -developer-build -opensource -nomake examples -nomake tests
+make -j2
+make install
 ```
 How to run:
 ```sh
