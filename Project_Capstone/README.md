@@ -44,7 +44,7 @@ mkdir qt5-build && cd qt5-build
 make -j2
 make install
 ```
-How to run:
+## How to run:
 ```sh
 1. Clone the project
 2. cd Project_Capstone
@@ -58,4 +58,27 @@ cmake .. && cmake --build .
 Or you can sign up new account with Sign up feature
 ```
 
+## Rubric Points
+Below are the rubric points that are addressed/implemented in this project.
 
+### Loop, Functions, I/O
+- The project demonstrates an understanding of C++ functions and control structures.
+- The project reads data from database file and process the data, and write data to database file using SQLite. Method `connectDatabase()` using to open database, `checkUserData()` is used to read user data from database and many methods are used to write like `deleteAcc()` (use to delete account in database), `changeInfoAcc()` (use change account information).
+- The project accepts user input and processes the input.User input by enter data on GUI interfaces.
+
+### Object Oriented Programming
+- The project uses Object Oriented Programming techniques.
+- Classes use appropriate access specifiers for class members. (see `account.h`, `addbook.h`, `adminstrator.h`, `book`, `clickableLabel.h`, `customquerytable.h`, `login.h`, `mainscreen.h`, `rentbook.h`, `sigin.h`)
+- Class constructors utilize member initialization lists. All class GUI interfaces is have own initialization with `QWidget(parent)`, `ui(new Ui::RentBook)`. For `account.h` and `book.h` have initialization for some of properties of these class like `_accountID(0)` or `_price(0)` or `_isRented(false)`.
+- Classes abstract implementation details from their interfaces.
+- Classes encapsulate behavior. Each class define a behaviour of GUI interfaces.
+- Classes follow an appropriate inheritance hierarchy, Derived class functions override virtual base class functions.(see `customquerytable.h` and `customquerytable.cpp`. The class inheritance core class and override function on that).
+- 
+### Memory Management
+- The project makes use of references in function declarations.
+- The project uses destructors appropriately.
+- The project uses move semantics to move data, instead of copying it, where possible.(see line 26 `mainscreen.h`)
+- The project uses smart pointers instead of raw pointers.(see line 52 `login.h`)
+
+### Concurrency
+- Project using signal and slots for concurrency
